@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    /* background-image: url('./clouds-1768967_640.webp'); */
+    background-position: 300px 100px;
+    background-repeat: repeat;
+
+    background-color: thistle;
+    /* background-color: #b2b2b2; */
+    /* background-color: rgba(0, 0, 0, 3); */
+    opacity: 87%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+* {
+    font-family: 'Poppins', 'comic sans ms';
+    background-blend-mode: color-burn;
+}
+
+.weatherForm {
+    margin: 20px;
+}
+
+.cityInput {
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 2px solid rgb(47, 153, 100);
+    margin: 10px;
+    width: 200px;
+    font-size: 20px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 1.23rem;
+    background-color: rgba(18, 191, 156, 0.664);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    transition: 0.3s ease-in-out;
+    background-color: rgb(32, 128, 173);
+    color: #d1cdd1;
+}
+
+.card {
+    background: linear-gradient(223deg, red, orange);
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 1px 7px 23px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 1.3rem;
+    margin: 5px 0.2px;
+}
+
+.cityDisplay,
+.tempDisplay {
+    font-size: 2rem;
+    color: rgb(159, 200, 255);
+    margin-bottom: 25px;
+}
+
+.humidityDisplay {
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.descDisplay {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.weatherEmoji {
+    margin: 0px;
+    font-size: 4rem;
+    font-weight: bold;
+
+}
+
+.errorDisplay {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: hsla(0, 0%, 0%, 0.75);
+}
+
+footer {
+    color: rgb(43, 31, 16);
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+}
